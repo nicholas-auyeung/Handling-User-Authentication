@@ -39,33 +39,33 @@ This is a Spring MVC application that performs successful JUnit testing...
 
 4. Import into Eclipse EE as maven project
 
-5. Inside 'HandlingAuth' maven project...src/test/java inside the already created 'com.phase3' package, create Authentication JUnit test class.
+5. Inside 'HandlingAuth' maven project...src/test/java inside the already created 'com.phase3' package, create Authentication JUnit test class, 'AuthenticationTest'.
 
 6. Define proper mockmvc and webapplicationcontext objects.
 
-7. Create first test, test login and implement test logic.
+7. Create the first test, 'loginTest' and implement login test logic.
 
-8. Create required logic to run test.
+8. Create required main application logic to run test.
 
 9. Inside src/main/java create two packages 'controller' and 'model'.
 
-10. Inside 'model' package define User class model.
+10. Inside 'model' package define User class model, 'User' class.
 
-11. Implement User class.
+11. Implement 'User' class.
 
-12. Inside 'controller' package define authentication controller.
+12. Inside 'controller' package define authentication controller, 'AuthenticationController'.
 
 13. Implement login controller functions.
 
 14. Add appropriate annotations to the application.
 
-15. Run Junit test.
+15. Run Junit test, 'loginTest'.
 
-16. Write a new test, logout test.
+16. Write a new test, logout test, 'logoutTest'.
 
-17. Inside 'AuthenticationController' define the logout function.
+17. Inside 'AuthenticationController' define the logout controller function.
 
-18. Run Junit test.
+18. Run Junit test, 'logoutTest'.
 
 19. Rinse and repeat steps (16-18) for the remaining tests.
 
